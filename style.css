@@ -142,3 +142,33 @@ line-height: normal;
 
 /* always keep your positive mindset
  */
+
+ 
+.mindset-part{
+    position:relative;
+    top: 190px;
+    left: 85px;
+}
+.mindset{
+    width: 459px;
+    color: #f1efef;
+font-family: "Work Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.now{
+    width: 320px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 5px;
+background: #ec9797;
+color: #F15B22;
+text-align: center;
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
