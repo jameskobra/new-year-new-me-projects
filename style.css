@@ -138,6 +138,7 @@ line-height: normal;
 }
 .skill-container{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 /* always keep your positive mindset
@@ -146,27 +147,68 @@ line-height: normal;
  
 .mindset-part{
     position:relative;
-    top: 190px;
-    left: 85px;
+    top: -250px;
+    left: 80px;
 }
 .mindset{
     width: 459px;
-    color: #f1efef;
+    color: #f8f5f5;
 font-family: "Work Sans";
 font-size: 40px;
 font-style: normal;
-font-weight: 700;
+font-weight:  bolder;
+line-height: normal; 
+}
+.now{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+background: #FFF;
+text-align: center;
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
 line-height: normal;
 }
 .now{
-    width: 320px;
-    height: 128px;
-    flex-shrink: 0;
-    border-radius: 5px;
-background: #ec9797;
+    color:#e44405;;
+
+}
+.gradient-pic{
+    position: absolute;
+     bottom: -191% ;
+    left:0%;
+}
+.image-container{
+gap: 20px;
+}
+/* footer-part */
+.footer{
+    display: flex;
+    gap: 50%;
+    justify-content: space-between;
+    background:  #151414;
+    padding: 150px 200px 150px 200px;
+}
+.social-details, .Subscribeer{
+    width: 50%;
+}
+.Future, .paragraph, .email, .Phone{
+    color: #FFF;
+}
+.subs, .email{
+    color: #FFF;
+}
+.button-subscribe{
+    width: 250.106px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+width: 98.061px;
 color: #F15B22;
-text-align: center;
-font-family: "Work Sans";
+font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
